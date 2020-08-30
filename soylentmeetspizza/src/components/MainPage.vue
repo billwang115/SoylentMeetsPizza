@@ -2,34 +2,40 @@
 
   <div>
 
+    <v-card width="100%" color="purple lighten-1" height="65px" style="margin-bottom:30px"></v-card>
+
     <div v-show="bottomNav === 'profile'">
-1
+      <Profile />
     </div>
 
     <div v-show="bottomNav === 'swipe'">
-2
+      <Swipe />
     </div>
 
     <div v-show="bottomNav === 'chat'">
-3
+      <Chat />
     </div>
 
   <v-bottom-navigation
     v-model="bottomNav"
+    :value="swipe"
+    grow
+    absolute
+    color="purple lighten-1"
   >
     <v-btn value="profile">
-      <span>Recent</span>
-      <v-icon>mdi-history</v-icon>
+      <span>Profile</span>
+      <v-icon>mdi-face</v-icon>
     </v-btn>
 
     <v-btn value="swipe">
-      <span>Favorites</span>
+      <span>Discover</span>
       <v-icon>mdi-heart</v-icon>
     </v-btn>
 
     <v-btn value="chat">
-      <span>Nearby</span>
-      <v-icon>mdi-map-marker</v-icon>
+      <span>Chat</span>
+      <v-icon>mdi-chat</v-icon>
     </v-btn>
   </v-bottom-navigation>
 
@@ -38,11 +44,20 @@
 
 
 <script>
+import Profile from './Profile'
+import Swipe from './Swipe'
+import Chat from './Chat'
+
   export default {
+    components: {
+      Profile,
+      Swipe,
+      Chat
+      },
     data () {
       return {
         bottomNav: 'swipe',
       }
-    },
+    }
   }
 </script>
