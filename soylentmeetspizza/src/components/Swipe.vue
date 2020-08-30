@@ -32,7 +32,7 @@
     <v-card-subtitle class="pb-4">Computer Science Student in Toronto</v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Hackathon enthusiast 💻</div>
+      <div>Hackathon Enthusiast 💻</div>
       <br>
       <div>Looking for hackathon partners in Toronto. DM if you want to team up, or are looking to connect!</div>
       <br>
@@ -78,7 +78,7 @@
     <v-card-subtitle class="pb-4">Criminology Student in Toronto</v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Tech Entrepreneur 💻</div>
+      <div>Tech Entrepreneur 💼</div>
       <br>
       <div>Looking for startup partners in Toronto/London area. DM if you are interested!</div>
       <br>

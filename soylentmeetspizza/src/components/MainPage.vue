@@ -2,7 +2,7 @@
 
   <div>
 
-    <v-card width="100%" color="purple lighten-1" height="65px" style="margin-bottom:30px">
+    <v-card width="100%" color="purple lighten-1" height="65px" style="margin-bottom:30px; text-align: center;">
       <v-img height="65px" width="50px"
         src="https://scontent.xx.fbcdn.net/v/t1.15752-9/118645847_345927646540309_2607116623102179277_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=C72hF17o9i0AX8TsJgD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1de94888c58a5b5f391c06c632bc1e6f&oe=5F716EB2"
       >
