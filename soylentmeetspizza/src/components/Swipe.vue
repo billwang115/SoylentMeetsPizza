@@ -13,18 +13,18 @@
         align="center"
         justify="center"
       >
-      
+
 
 <v-card
     class="mx-auto"
     color="grey darken-3"
-    v-show="bill"
+    v-show="!bill"
   >
 
     <v-img
       class="white--text align-end"
       height="350px"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      src="https://scontent.xx.fbcdn.net/v/t1.15752-9/118631655_364327857894976_2616781774397461562_n.jpg?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=hCW3_tQm_RIAX_-wLHq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=ace9dfd087cc5a7c844453934c1715a6&oe=5F6E9760"
     >
       <v-card-title>Bill Wang</v-card-title>
     </v-img>
@@ -33,7 +33,17 @@
 
     <v-card-text class="text--primary">
       <div>Hackathon enthusiast 💻</div>
+      <br>
       <div>Looking for hackathon partners in Toronto. DM if you want to team up, or are looking to connect!</div>
+      <br>
+      <div>Expertise Area:</div>
+      <div>
+        <ul>
+          <li>Front end</li>
+          <li>Back end</li>
+          <li>Machine learning</li>
+        </ul>
+      </div>
         <br>
       <div>
           <v-chip color="purple lighten-1" filter><a href="https://github.com/billwang115">GitHub</a></v-chip>
@@ -43,20 +53,9 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn
-        color="purple"
-        text
-      >
-        Send message
-      </v-btn>
+      <v-btn color="purple" text> Send message </v-btn>
 
-      <v-btn
-        color="purple"
-        text
-      >
-        Save
-      </v-btn>
-
+      <v-btn color="purple" text> Save </v-btn>
     </v-card-actions>
 
   </v-card>
@@ -65,13 +64,13 @@
   <v-card
     class="mx-auto"
     color="grey darken-3"
-    v-show="!bill"
+    v-show="bill"
   >
 
     <v-img
       class="white--text align-end"
       height="350px"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      src="https://scontent.xx.fbcdn.net/v/t1.15752-9/118483640_3222722651130832_817294328514744363_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=xTMAhDgMKw0AX-tWmD6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=12e127535eb14d6db0a7d910dbfcf7be&oe=5F6EFA34"
     >
       <v-card-title>Sujean Pyo</v-card-title>
     </v-img>
@@ -79,29 +78,28 @@
     <v-card-subtitle class="pb-4">Criminology Student in Toronto</v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Nerd</div>
-      <div>Am nerd</div>
+      <div>Tech Entrepreneur 💻</div>
+      <br>
+      <div>Looking for startup partners in Toronto/London area. DM if you are interested!</div>
+      <br>
+      <div>Expertise Area:</div>
+      <div>
+        <ul>
+          <li>Project Management</li>
+          <li>UI Design</li>
+        </ul>
+      </div>
         <br>
       <div>
-          <v-chip color="purple lighten-1" filter><a href="https://www.linkedin.com/in/billwang115/">LinkedIn</a><br></v-chip>
+          <v-chip color="purple lighten-1" filter><a href="https://github.com/billwang115">GitHub</a></v-chip>
+          <v-chip color="purple lighten-1" filter style="margin-left: 10px; margin-right:10px;"><a href="https://www.linkedin.com/in/billwang115/">LinkedIn</a><br></v-chip>
       </div>
     </v-card-text>
 
     <v-card-actions>
-      <v-btn
-        color="purple"
-        text
-      >
-        Send message
-      </v-btn>
+      <v-btn color="purple" text> Send message </v-btn>
 
-      <v-btn
-        color="purple"
-        text
-      >
-        Save
-      </v-btn>
-
+      <v-btn color="purple" text> Save </v-btn>
     </v-card-actions>
 
   </v-card>
