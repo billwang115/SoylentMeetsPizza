@@ -22,7 +22,7 @@
 
     <v-card class="mx-auto" width="434">
         <v-card-text class="text--primary">
-      <div>Aspiring Data scientist. Interested in data science applications in Sports.</div>
+      <div>Aspiring Data scientist. Interested in data science applications in sports.</div>
       <br>
       <div>Expertise Area:</div>
       <div>
